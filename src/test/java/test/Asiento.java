@@ -6,11 +6,12 @@ public class Asiento {
     int registro;
 
     void cambiarColor(String color) {
-        switch (color) {   // un if chevere
+        switch (color) {   // un if interesante
             case "verde", "amarillo", "negro", "blanco" -> this.color = color;
             default -> System.out.println("Color no Valido");
         }
 
     }
+
 
 }

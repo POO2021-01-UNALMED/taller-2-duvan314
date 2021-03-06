@@ -7,6 +7,7 @@ public class Auto {
     String marca;
     Motor motor;
     int registro;
-    static int cantidadCreados;
+    static int cantidadCreados; // atributo de clase
+    
 
 }
