@@ -9,12 +9,15 @@ public class Motor {
         this.registro = registro;
     }
 
-    void asignarTipo(String tipomotor) {
-        switch (tipomotor) {   // un if interesante
-            case "electrico", "gasolina" -> this.tipo = tipomotor;
-            default -> System.out.println("Tipo de motor no valido");
+    void asignarTipo(String tipo) {
 
+        if (tipo.equals("electrico") || tipo.equals("gasolina")) {
+
+            this.tipo = tipo;
         }
+
     }
+
+
 }
 

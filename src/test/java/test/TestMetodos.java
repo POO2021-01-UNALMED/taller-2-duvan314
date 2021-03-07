@@ -38,7 +38,7 @@ public class TestMetodos {
 		Motor m = new Motor();
 		
 		m.registro = 123;
-		m.cambiarRegistro(423);
+		m.cambiarRegistro();
 		
 		boolean ok = false;
 		

@@ -8,6 +8,18 @@ public class Auto {
     Motor motor;
     int registro;
     static int cantidadCreados; // atributo de clase
-    
+
+
+
+    int cantidadAsientos() {
+
+        int cantidad = 0;
+
+        return cantidad;
+    }
+
+
+
+
 
 }
